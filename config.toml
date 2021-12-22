@@ -1,0 +1,61 @@
+baseURL = "https://funcsec.com/"
+languageCode = "en-us"
+title = "Functional Security"
+theme = "ananke"
+resourceDir = "./resources"
+
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 9 # this is set low for demonstrating with dummy content. Set to a higher number
+#googleAnalytics = ""
+enableRobotsTXT = true
+
+#[languages]
+#  [languages.en]
+#    title = "My blog"
+#    weight = 1
+#    contentDir = "content/en"
+#  [languages.fr]
+#    title = "Mon blogue"
+#    weight = 2
+#    contentDir = "content/fr"
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  custom_css = ["custom.css"]
+  description = "Discover Vulnerabilities Before Attackers Do"
+  disable_share = true
+  favicon = "/images/favicon.ico"
+  featured_image = "/images/background.jpg"
+  images = ['/images/background.jpg']
+  recent_posts_number = 5
+  show_reading_time = true
+  twitter_handle = "@funcsec"
+  background_color_class = "bg-black-60"
+  [[params.ananke_socials]]
+    name = "twitter"
+    url = "https://twitter.com/funcsec"
+  [[params.ananke_socials]]
+    name = "github"
+    url = "https://github.com/funcsec"
+  [[params.ananke_socials]]
+    name = "rss"
+    url = "https://funcsec.com/index.xml"
+#  github = "https://github.com/funcsec"
+#  rss = "https://funcsec.com/index.xml"
+#  twitter = "https://twitter.com/funcsec"
+#  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+#  body_classes = "avenir bg-dark-gray"
+#  facebook = ""
+#  instagram = ""
+#  linkedin = ""
+#  mastodon = ""
+#  site_logo = ""
+#  slack = ""
+#  stackoverflow = ""
+#  youtube = ""
+#  gitlab = ""
