@@ -2,8 +2,8 @@ HUGO = ./hugo
 RSYNC = /usr/bin/rsync
 HFLAGS = -D
 PUBLIC = ./public
-SITE = funcsec.com 
-SVR = ig-11 
+SITE = funcsec.com
+SVR = ig-11
 
 .PHONY: clean deploy prod build serve
 
