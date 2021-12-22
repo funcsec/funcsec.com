@@ -3,7 +3,7 @@ title = "Migrate Windows Shares Fast"
 author = ["funcsec"]
 date = 2021-12-21
 publishDate = 2021-12-21
-lastmod = 2021-12-21T20:00:05-08:00
+lastmod = 2021-12-22T00:29:17-08:00
 tags = ["windows"]
 categories = ["blueteam"]
 draft = false
@@ -11,7 +11,7 @@ description = "Minimize downtime by migrating Windows Shares fast!"
 toc = "true +"
 featured_image = "images/henry-hyman-sayen_scheherazade.jpg"
 images = ["images/henry-hyman-sayen_scheherazade.jpg"]
-omit_header_text = "false +"
+omit_header_text = "true +"
 background_color_class = "bg-black-60"
 +++
 
