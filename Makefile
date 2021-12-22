@@ -17,7 +17,7 @@ prod: clean
 	export HUGO_ENV=production && $(HUGO)
 
 deploy: prod
-	$(RSYNC) -rvz $(PUBLIC)/ $(SVR):/var/www/$(SITE)/http/ 
+	$(RSYNC) -rvz --delete $(PUBLIC)/ $(SVR):/var/www/$(SITE)/http/ 
 
 clean:
 	$(RM) -r $(PUBLIC)
