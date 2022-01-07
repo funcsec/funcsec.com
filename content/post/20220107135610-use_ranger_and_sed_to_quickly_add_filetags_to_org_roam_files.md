@@ -3,7 +3,7 @@ title = "Use Ranger and Sed to Quickly Add Filetags to Org-roam files"
 author = ["funcsec"]
 date = 2022-01-07
 publishDate = 2022-01-07
-lastmod = 2022-01-07T14:19:05-08:00
+lastmod = 2022-01-07T15:04:43-08:00
 tags = ["sed", "ranger", "org-roam", "org-mode"]
 draft = false
 toc = "true +"
@@ -71,7 +71,7 @@ Next I made it into a shell script in the home bin `$HOME/bin` so I could call i
 #!/usr/bin/env bash
 #
 # ./org-tag-add
-#   Add tag at after the #+title: in an org file
+#   Add tag before the #+title: in an org file
 
 FILE="$1"
 
@@ -106,3 +106,5 @@ Much simpler than opening each in `vim` or `emacs` and copy pasting the line in.
 Much faster too.
 
 When I was done I removed the line from `$HOME/.config/ranger/rifle.conf` so org files would again open in `$EDITOR`.
+
+Image by [Adolphe Appian](https://artvee.com/dl/well-at-the-side-of-a-road/)
