@@ -3,14 +3,14 @@ title = "Enhance Wordpress Security with a Twenty Twenty-One Child Theme"
 author = ["funcsec"]
 date = 2021-12-15
 publishDate = 2021-12-15
-lastmod = 2021-12-21T23:55:48-08:00
+lastmod = 2022-01-18T16:45:40-08:00
 tags = ["wordpress"]
 categories = ["blueteam"]
 draft = false
 description = "Make your Wordpress website more secure and future-proof by using a child theme build on a default theme"
 toc = "true +"
-featured_image = "images/code-is-poetry.png"
-images = ["images/code-is-poetry.png"]
+featured_image = "images/jan-miense-molenaer_the-five-sensestouch.jpg"
+images = ["images/jan-miense-molenaer_the-five-sensestouch.jpg"]
 +++
 
 You can find the code for this on Github at [funcsec/twentytwentyone-child](https://github.com/funcsec/twentytwentyone-child)
