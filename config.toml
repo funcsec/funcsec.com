@@ -1,4 +1,4 @@
-baseURL = "https://funcsec.com/"
+baseURL = "https://funcsec.com"
 languageCode = "en-us"
 title = "Functional Security"
 theme = "ananke"
