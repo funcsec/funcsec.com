@@ -24,7 +24,7 @@ Plus add a couple notes and modifications to the toolset in the notes, like the 
 
 ## Executive Summary {#executive-summary}
 
-The target machine suffered from broken access control vulnerability that allow for the harvesting of active user credials from FTP.
+The target machine suffered from broken access control vulnerability that allow for the harvesting of active user credentials from FTP.
 Those same credentials could be used to login to a restriced part of the web application.
 
 
