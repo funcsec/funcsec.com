@@ -3,7 +3,7 @@ title = "The Sad State of Mac Antivirus (2022)"
 author = ["funcsec"]
 date = 2022-01-25
 publishDate = 2022-01-25
-lastmod = 2022-01-25T14:08:51-08:00
+lastmod = 2022-02-06T14:47:58-08:00
 tags = ["macos", "antivirus"]
 categories = ["blueteam"]
 draft = false
@@ -15,7 +15,7 @@ images = ["images/pierre-auguste-renoir_apple-and-pear.jpg"]
 +++
 
 You might need to pay for MacOS antivirus in 2022.
-Yes, your Apple laptop or desktop do need some form of antivirus.
+Yes, your Apple laptop or desktop does need some form of antivirus.
 Apple products are not immune from spyware, malware, and viruses.
 The belief that they were immune was the result of millions of dollars in Apple advertising highlighting that Microsoft Windows was the dominant OS in the desktop market.
 Viruses and malware written for Apple products are less common because Windows is still ~75% of the global market share in operating systems.
@@ -59,5 +59,7 @@ So you might need to pay for MacOS antivirus in 2022.
 
 ## tldr {#tldr}
 
-If you can take the ads, use [Avira](https://www.avira.com/en/free-antivirus-mac) for free.
+If you can take the ads, use [Avira](https://www.avira.com/en/free-antivirus-mac)[^fn:1] for free.
 If not, [Sophos](https://home.sophos.com/en-us), [Bitdefender](https://www.bitdefender.com/solutions/antivirus-for-mac.html), and [Malwarebytes](https://www.malwarebytes.com/mac) are good.
+
+[^fn:1]: EDIT: Apparently Avira also has cryptomining, so just ... buy antivirus for Mac.
