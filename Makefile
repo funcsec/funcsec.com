@@ -14,6 +14,7 @@ build: clean
 	$(HUGO) $(HFLAGS)
 
 prod: clean
+	trimage -d ./static/images
 	export HUGO_ENV=production && $(HUGO)
 
 deploy: prod
