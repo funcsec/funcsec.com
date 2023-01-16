@@ -30,15 +30,15 @@ enableRobotsTXT = true
   description = "Discover Vulnerabilities Before Attackers Do"
   disable_share = true
   favicon = "/images/favicon.ico"
+#  site_logo = "/images/logo.png"
   featured_image = "/images/background.jpg"
   images = ['/images/background.jpg']
   recent_posts_number = 5
   show_reading_time = true
-  twitter_handle = "@funcsec"
   background_color_class = "bg-black-60"
   [[params.ananke_socials]]
-    name = "twitter"
-    url = "https://twitter.com/funcsec"
+    name = "mastodon"
+    url = "https://infosec.exchange/@funcsec"
   [[params.ananke_socials]]
     name = "github"
     url = "https://github.com/funcsec"
