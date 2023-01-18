@@ -3,7 +3,7 @@ title = "Install Docker with Ansible on Debian Bullseye"
 author = ["funcsec"]
 date = 2022-12-23
 publishDate = 2022-12-23
-lastmod = 2022-12-23T19:15:10-08:00
+lastmod = 2023-01-17T16:05:20-08:00
 tags = ["ansible", "docker"]
 categories = ["tutorial"]
 draft = false
@@ -42,8 +42,10 @@ can be tied into the `site.yml`.
 ...
 ```
 
+This document was named `docker.yml`.
+
 The following was added to `site.yml` file to hook the new
-configuration into the larger Ansible playbook.
+configuration `docker.yml` into the larger Ansible playbook.
 
 ```yaml
 - import_playbook: docker.yml
