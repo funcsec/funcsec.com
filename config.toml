@@ -39,6 +39,7 @@ enableRobotsTXT = true
   [[params.ananke_socials]]
     name = "mastodon"
     url = "https://infosec.exchange/@funcsec"
+    rel = "me noopener"
   [[params.ananke_socials]]
     name = "github"
     url = "https://github.com/funcsec"
